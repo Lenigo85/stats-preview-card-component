@@ -171,7 +171,7 @@ body {
     }
 
     .text__title {
-        font-size: 2.3em;
+        font-size: 2em;
         line-height: 1.2em;
         text-align: center;
         margin-top: 28px;
@@ -179,8 +179,8 @@ body {
     }
 
     .text__description {
-        font-size: 1.3em;
-        line-height: 1.7em;
+        font-size: 1em;
+        line-height: 1.5em;
         margin-bottom: -4%;
     }
 
@@ -189,8 +189,8 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 1.4em;
-        padding-top: 5%;
+        font-size: 1.1em;
+        padding-top: 3%;
         padding-bottom: 0;
         padding-right: 0;
     }
@@ -206,22 +206,4 @@ body {
         height: 240px;
     }
   }
-
-  @media screen and (max-height: 840px) {
-    .text__title {
-        font-size: 2em;
-        line-height: 1.2em;
-    }
-
-    .text__description {
-        font-size: 1em;
-        line-height: 1.5em;
-    }
-
-    .data {
-        font-size: 1.1em;
-        padding-top: 3%;
-    }
-  }
-
 
